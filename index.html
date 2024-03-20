@@ -3,26 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itinero - планируйте путешествие правильно</title>
+    <title>*spark</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+      jQuery(document).ready(function($){
+  
+  $('.button#login').on('click', function(e){
+    alert('Открываем модальное окно');
+  });
+  
+  $('.button#register').on('click', function(e){
+    e.preventDefault();
+    alert('Перенаправляем на страницу регистрации');
+  });
+  
+});
+    </script>
 </head>
-<body>
+<body style="background-color: #000000;">
+  
     <header><div class="container">
-        <a href="/" class="logo">Itireno</a>
+        <b href="/" class="logo">spark</b>
     <nav>
       <ul>
-        <li><a href="">Главная</a></li>
-        <li><a href="">Функции</a></li>
-        <li><a href="">Комьюнити</a></li>
-        <li><a href="">Блог</a></li>
-        <li><a href="" style="border:2px solid #000000; border-radius:100px; width: 200px; text-align:center;  margin:20px; padding:20px;">Начать планировать</a></li>
+        <li><a href="" style="background-color: #ffffff; border:2px solid #ffffff; border-radius:100px; width: 200px; text-align:center;  margin:20px; padding:20px;">Начать</a></li>
+  </ul>
+</nav>
+<nav>
+      <ul>
+        <li><b href="">Продукты</b></li>
+        <li><b href="">Примеры</b></li>
+        <li><b href="">Подписки</b></li>
+        <li><b href="">О нас</b></li>
+        <li><b href="">Блог</b></li>
       </ul>
     </nav>
+    
     </div></header>
     <div class="image-container">
-      <div class="text-overlay">Мавзолей в Галикарнасе</div>
-      <div class="text-overlay1">Мавзолей в Галикарнасе</div>
+      <div class="text-overlay2">МЫ ДОСТИГЛИ 20 МЛН.₱ ЗА СЕРИЮ Б</div>
+      <div class="text-overlay" >Ускорте разработку высококачественного программного обеспечения</div>
+      <div class="text-overlay1">Наш ИИ ассистент поможет вам с разработкой</div>
+      <div>
+    
+    <button id="login" class="button blue">
+      <i class="fa fa-unlock" style="color: #000000;"></i>
+      <span>Скачать</span>
+     
+    </button>
+    
+    <a id="register" class="button purple" href="/register">
+      <i class="fa fa-user-plus"></i>
+      <span>Узнать больше</span>
+  
+    </a>
+    </div>
    </div>
+   <div><script>
+   jQuery(document).ready(function($){
+  
+    $('.button#login').on('click', function(e){
+      alert('Открываем модальное окно');
+    });
+    
+    $('.button#register').on('click', function(e){
+      e.preventDefault();
+      alert('Перенаправляем на страницу регистрации');
+    });
+    
+  });
+</script></div>
+<div class="main">
+  <div class="container">
+    <div class="col-1-4">1/4</div>
+    <div class="col-1-4">1/4</div>
+    <div class="col-1-2">1/2</div>
+    <div class="col-1-3">1/3</div>
+    <div class="col-2-3">2/3</div>
 
+  </div>
+</div>
 </body>
 </html>
