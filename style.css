@@ -1,6 +1,4 @@
-.background{
-  color: black;
-}
+
 
 .container {
     width: 100%;
@@ -105,7 +103,7 @@
   display: inline-block;
   border-radius: 5px;
   max-width: 1450px;
-  margin-left: 50px;
+  margin-left: 430px;
   margin-top: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -119,7 +117,7 @@
   display: inline-block;
   border-radius: 5px;
   max-width: 325px;
-  margin-left: 10px;
+  margin-left: 550px;
   margin-top: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -153,18 +151,8 @@
   padding: 12px 16px;
   border-radius: 100px;
   color: #000000;
-  jQuery(document).ready(function($){
-  
-  $('.button#login').on('click', function(e){
-    alert('Открываем модальное окно');
-  });
-  
-  $('.button#register').on('click', function(e){
-    e.preventDefault();
-    alert('Перенаправляем на страницу регистрации');
-  });
-  
-});
+  margin-left: 550px;
+
   
 }
 .button i {
@@ -200,28 +188,54 @@
   background: #ffffff;
 }
 
-div {
-  margin: 24px;
-  text-align: center;
+
+body {
+  background: #FFF;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 
-.container div {
+#header {
+  background: #F5DEB3;
+  width: 100%;
+  height: 55px;
+}
+
+#container {
+  background: #FFD700;
+  margin: auto auto;
+  text-align: center;
+  width: 80%;
+  height: 400px;
+}
+
+#navigation {
+  background: #FE9798;
+  width: 100%;
+  height: 25px;
+}
+
+#sidebar {
+  background: #40E0D0;
   float: left;
-  margin-bottom: 15px;
+  width: 20%;
+  height: 280px;
 }
-.col-1-2 {
-  width: 50%;  
-  color: #fff;
+
+#content {
+  background: #DCDCDC;
+  float: right;
+  width: 80%;
+  height: 280px;
 }
-.col-1-3 {
-  width: 40%;
-  color: #fff;
+
+#clear {
+  clear: both;
 }
-.col-1-4 {
-  width: 25%;
-  color: #fff;
-}
-.col-2-3 {
-  width: 60%;
-  color: #fff;
+
+#footer {
+ background: #00BFFF;
+width: 100%;
+height: 40px;
 }
